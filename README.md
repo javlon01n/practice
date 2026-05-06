@@ -1,5 +1,9 @@
 # PRACTICE PROJECT
 
+Learning GIT Python Foundation
+
+# GIT COMMANDS
+
 ```
 git config --global user.name
 git config --global user.name "MARK"
@@ -14,3 +18,13 @@ git pushorigin master
 git pul origin master
 
 ```
+# Python Foundation:
+
+- Primitive Veriables
+- Function
+- Object
+- Class
+- class deep dive
+- Operation & Conditions
+- loops
+- ...
