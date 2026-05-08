@@ -36,3 +36,22 @@ print(f"the result (5): {result}")
 
 
 print("============")
+# function > type() input() bool() int() str()
+
+# input bizning terminalga kiritilgan raqamlarni biznig sorsmizga taqdim etadi
+
+y= input("Give yuor value for y:")
+print("y:", y)
+
+result=y.isnumeric()
+print(f"the input value is numeric: {result}")
+
+#TRUTHY vs FALSY .value 
+#TRUTHY; true 100 -100 "abc"
+#FALSY: fals 0 "" None
+
+test_falsy =  False or None or 0 
+print("The test_falsy:", bool(test_falsy))
+
+test_truthy =  "MIT" 
+print("The test_truthy:", bool(test_truthy))
