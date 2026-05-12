@@ -22,7 +22,7 @@ print(f"the result (1): {result}")
 result = course.title()
 print(f"the result (2): {result}")
 
-#course.  # shu xolatda foyda li methodlarni ro'yxatini ko'rish mumkun
+# course.  # shu xolatda foyda li methodlarni ro'yxatini ko'rish mumkun
 
 result = course.upper()
 print(f"the result (3): {result}")
@@ -34,24 +34,23 @@ result = course.replace("fulStack", "MasterClass")
 print(f"the result (5): {result}")
 
 
-
 print("============")
 # function > type() input() bool() int() str()
 
 # input bizning terminalga kiritilgan raqamlarni biznig sorsmizga taqdim etadi
 
-y= input("Give yuor value for y:")
+y = input("Give yuor value for y:")
 print("y:", y)
 
-result=y.isnumeric()
+result = y.isnumeric()
 print(f"the input value is numeric: {result}")
 
-#TRUTHY vs FALSY .value 
-#TRUTHY; true 100 -100 "abc"
-#FALSY: fals 0 "" None
+# TRUTHY vs FALSY .value
+# TRUTHY; true 100 -100 "abc"
+# FALSY: fals 0 "" None
 
-test_falsy =  False or None or 0 
+test_falsy = False or None or 0
 print("The test_falsy:", bool(test_falsy))
 
-test_truthy =  "MIT" 
+test_truthy = "MIT"
 print("The test_truthy:", bool(test_truthy))
