@@ -59,3 +59,16 @@ calculate(0, 2, 300)
 print("------")
 calculate(5, 7)
 
+print("=======")
+# **kwargs > dictionary qiymatni olib beradi
+
+
+def introduce(**kwargs):
+    print(f"the type(**kwargs) value: {type(kwargs)}")
+    print(f"Hi I am {kwargs["name"]} and i am {kwargs["age"]} years old!")
+
+
+
+#CALL 
+introduce(name="Justin", age=28)
+introduce(name="Shawn", age=30, single=True)
