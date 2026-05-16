@@ -86,4 +86,29 @@ print("sort reverse:", numbers)
 # immuteble sorted  immuteble > sorti function & .index(value) method 
 numbs = [2, 20, 12, 100]
 new_numbs = sorted(numbs)
-print(f"the sorted numbs: {numbs} and new_numbs: {new_numbs}")
+print(f"the sorted numbs: {numbs} and new_numbs: {new_numbs}") 
+
+
+
+print("====== Lambda function ======")
+# lambda is bu kichik anonymous function
+def calculate(x, y): return x * y 
+
+
+resualt = calculate(3, 5)
+print("resualt:", resualt)
+
+people = [
+    ("Robert", 20),
+    ("Steve", 19),
+    ("Joseph", 25),
+    ("Michael", 30),
+    ("Ali", 40)
+]
+people.sort()
+print("people(1)", people)
+
+# sort by age via lambda
+people.sort(key=lambda person: person[1])
+print("people(2)", people)
+
