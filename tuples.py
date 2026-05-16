@@ -81,4 +81,15 @@ def greeting(*args, **kwargs):
     
     
 # call 
-greeting("Hi", True, 10, name="Jhon", age=22) #args argumentlarni olib berayapti kwasgs esa keylarni
+greeting("Hi", True, 10, name="Jhon", age=22) #args argumentlarni olib berayapti kwasgs esa keylarni 
+
+
+
+print("====== zip ======")
+tuple1 =(1, 2, 3, 4)
+tuple2 =('a', 'b', 'c')
+
+zipped = zip(tuple1, tuple2)
+print("zipped:", zipped)
+result = list(zipped)
+print(f"the result: {result}")
