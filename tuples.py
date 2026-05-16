@@ -72,3 +72,13 @@ def introduce(**kwargs):
 #CALL 
 introduce(name="Justin", age=28)
 introduce(name="Shawn", age=30, single=True)
+
+
+# *args, **kwargs birga ishlatish
+def greeting(*args, **kwargs):
+    print("*args >", args)
+    print("**kwargs >", kwargs)
+    
+    
+# call 
+greeting("Hi", True, 10, name="Jhon", age=22) #args argumentlarni olib berayapti kwasgs esa keylarni
