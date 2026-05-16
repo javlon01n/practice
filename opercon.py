@@ -5,7 +5,7 @@
 '''
 
 print("===== Operators =====")
-# + - > >= <= == is * /  // % += -= **
+# + - > >= <= == is * /  // % += -= **.  **bular kvadrat va kubni chiqarishda ishlatiladi **2 **3
 
 a = 19
 b = 5
