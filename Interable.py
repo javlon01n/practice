@@ -1,7 +1,7 @@
 print("===== Interable objects & RANGE=====")
 # Iterable object > string dict tuple list range map filter(function, iterable)
 
-range_obj = range(3)
+range_obj = range(3) #[0, 3]
 print("range_obj", range_obj)
 
 
