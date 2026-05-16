@@ -23,8 +23,13 @@ git pul origin master
 - Primitive Veriables
 - Function
 - Object
-- Class
-- class deep dive
+- Class about
+- class deep dive > Encapsulation
+- class deep dive > Inheritence Polimorphism
 - Operation & Conditions
 - loops
-- ...
+- Tople
+- List
+- Array
+- Comprehension
+- Debugging

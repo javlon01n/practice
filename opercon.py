@@ -29,7 +29,7 @@ d = dict(name="Martin", age=35)
 e = c
 
 
-print("c==d", c == d)  # only value
+print("c==d", c == d)  # only value pythonda == bu 2ta objektga solishtiriladi
 print(id(c), id(d), id(e))
 
 print("c is d", c is d)
@@ -41,7 +41,7 @@ x = 15
 
 if x > 50:
     print("Case A")
-elif x > 10:
+elif x > 10:         # elif bu els if
     print("Case B")
 else:
     print("Case C")
