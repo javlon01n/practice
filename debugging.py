@@ -62,4 +62,4 @@ def get_summary (*args): # DEFINE
 
 test = 100  
 result = get_summary (1, 2, 3, 4, 5) # CALL
-# print("result:", result)
+print("result:", result)
