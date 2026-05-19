@@ -32,4 +32,17 @@ git pul origin master
 - List
 - Array
 - Comprehension
-- Debugging
+- Debugging 
+
+
+## Pip commands 
+
+```
+windows pip | macos pip3
+
+pip list
+ pip install pillow 
+ pip uninstall pilliw 
+ pip show pillow
+ pip freeze › requirements.txt
+```
